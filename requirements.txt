@@ -1,2 +1,5 @@
 ccxt
 pandas
+smtplib
+sqlite3
+json
