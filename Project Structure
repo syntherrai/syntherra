@@ -1,0 +1,9 @@
+syntherra-bot/
+├── main.py
+├── config.py
+├── strategy.py
+├── risk_management.py
+├── market_data.py
+├── trade_executor.py
+├── utils.py
+└── requirements.txt
