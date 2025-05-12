@@ -2,8 +2,20 @@ Syntherra - AI Crypto Trading Bot
 
 ![image](https://github.com/user-attachments/assets/0faff2e8-728a-4475-b279-e0cccc99bb7b)
 
+## Project Structure  
+| Directory   | Description                                                |
+| ----------- | ---------------------------------------------------------- |
+| data/       | Stores historical, raw, and processed trading data         |
+| logs/       | Logs of trading activities and errors                      |
+| models/     | Pre-trained AI models and serialized files                 |
+| strategies/ | Different trading strategies and algorithm implementations |
+| analytics/  | Performance reports and data analysis scripts              |
+| tests/      | Automated tests to ensure code functionality               |
+| utils/      | Utility functions and notification handlers                |
+| docs/       | Documentation and user guides                              |
+| scripts/    | Automation scripts for backtesting and data fetching       |
+| web/        | Web dashboard for monitoring and controlling the bot       |
 
-Syntherra - AI Crypto Trading Bot
 
 Manual trading can be time-consuming and prone to human error. That’s why we developed an AI bot that trades on your behalf. It continuously monitors the market, analyzes hype, and detects potential risks while adapting to ever-changing conditions. By combining automation with intelligent decision-making, we offer a streamlined and secure trading experience.
 
