@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b6294acb-13f6-487d-8631-ad9b6d92eb14)
+[![image](https://github.com/user-attachments/assets/b6294acb-13f6-487d-8631-ad9b6d92eb14)](https://sdmntprukwest.oaiusercontent.com/files/00000000-1c3c-6243-abe0-40e0126fdd02/raw?se=2025-05-12T18%3A06%3A05Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=0a4a0f0c-99ac-4752-9d87-cfac036fa93f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-11T20%3A30%3A14Z&ske=2025-05-12T20%3A30%3A14Z&sks=b&skv=2024-08-04&sig=qc5HACF%2BUeX4Xg4p%2BZHzXKO78j51%2BJE9TV5QgOfdekg%3D)
 
 Syntherra - AI Crypto Trading Bot
 
@@ -56,7 +56,7 @@ Git for version control
 SMTP for notification setup
 
 Installation.
-git clone https://github.com/yourusername/syntherra.git
+git clone 
 cd syntherra
 pip install -r requirements.txt
 
