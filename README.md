@@ -1,3 +1,5 @@
+Syntherra - AI Crypto Trading Bot
+
 ![image](https://github.com/user-attachments/assets/0faff2e8-728a-4475-b279-e0cccc99bb7b)
 
 
