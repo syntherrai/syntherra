@@ -25,3 +25,4 @@ CONFIG = {
         "take_profit": 0.05
     }
 }
+)
