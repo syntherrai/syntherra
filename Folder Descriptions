@@ -1,0 +1,59 @@
+data/
+
+historical/: Stores past trading data for backtesting.
+
+raw/: Raw market data from exchanges.
+
+processed/: Data that has been cleaned and formatted.
+
+logs/
+
+trade_logs/: Stores logs of executed trades.
+
+error_logs/: Contains logs of errors encountered during bot execution.
+
+models/
+
+Contains pre-trained AI models and serialized model files.
+
+strategies/
+
+ai_trend_follow.py: AI-based trading strategy using trend analysis.
+
+moving_average.py: Simple moving average crossover strategy.
+
+analytics/
+
+performance_report.py: Generates detailed performance reports.
+
+data_analyzer.py: Analyzes trading data and computes metrics.
+
+tests/
+
+test_trading_logic.py: Unit tests for core trading functionalities.
+
+test_data_handling.py: Tests for data cleaning and processing.
+
+utils/
+
+data_cleaner.py: Cleans and processes raw data.
+
+notification_handler.py: Sends notifications on trade executions and errors.
+
+docs/
+
+API_REFERENCE.md: Detailed API documentation for developers.
+
+USER_GUIDE.md: Comprehensive user manual.
+
+scripts/
+
+backtest.py: Runs backtesting simulations on historical data.
+
+data_fetcher.py: Script to fetch real-time and historical market data.
+
+web/
+
+frontend/: User interface files (HTML, CSS, JS) for the Syntherra web dashboard.
+
+backend/: API and server-side scripts for data handling.
