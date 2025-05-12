@@ -1,18 +1,37 @@
 syntherra-bot/
 ├── main.py
 ├── config.py
-├── strategy.py
-├── risk_management.py
-├── market_data.py
-├── trade_executor.py
-├── logger.py
-├── notifier.py
-├── performance.py
-├── utils.py
+├── README.md
 ├── requirements.txt
-├── data_management/
-│   ├── database.py
-│   └── data_handler.py
-└── analytics/
-    ├── report_generator.py
-    └── data_analyzer.py
+├── .env
+├── LICENSE
+├── data/
+│   ├── historical/
+│   ├── raw/
+│   └── processed/
+├── logs/
+│   ├── trade_logs/
+│   └── error_logs/
+├── models/
+│   └── ai_model.pkl
+├── strategies/
+│   ├── ai_trend_follow.py
+│   └── moving_average.py
+├── analytics/
+│   ├── performance_report.py
+│   └── data_analyzer.py
+├── tests/
+│   ├── test_trading_logic.py
+│   └── test_data_handling.py
+├── utils/
+│   ├── data_cleaner.py
+│   └── notification_handler.py
+├── docs/
+│   ├── API_REFERENCE.md
+│   └── USER_GUIDE.md
+├── scripts/
+│   ├── backtest.py
+│   └── data_fetcher.py
+└── web/
+    ├── frontend/
+    └── backend/
