@@ -8,3 +8,4 @@ class RiskManager:
         # Implement risk evaluation logic here
         # For simplicity, we'll allow all signals
         return signal in ["BUY", "SELL"]
+ 
