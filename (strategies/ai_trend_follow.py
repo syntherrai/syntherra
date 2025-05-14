@@ -18,3 +18,4 @@ class AITrendFollow:
         if confidence >= 0.85:
             return "BUY" if prediction[0] == 1 else "SELL"
         return "HOLD"
+ 
