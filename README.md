@@ -102,26 +102,26 @@ syntherra-bot/
 
 
 ## Architecture Overview
-┌──────────────────────────────┐
-│      Mobile/Web App UI       │  ← Monitor trades, configure bot
-└────────────┬─────────────────┘
-             │ REST/WebSocket
-┌────────────▼────────────┐
-│   Syntherra Core Engine │
-├─────────────────────────┤
-│ • Strategy Selector      │  ← AI-based logic
-│ • Risk Analyzer          │  ← Rug pull detection
-│ • Trade Executor         │  ← Exchange APIs (e.g. Binance)
-│ • Scheduler              │  ← Interval & event-driven loops
-└────────────┬────────────┘
-             │
-┌────────────▼────────────┐
-│    Data & Analytics     │
-├─────────────────────────┤
-│ • Live Market Feed       │
-│ • Trade History DB       │
-│ • Model Performance Logs │
-└─────────────────────────┘
+ ┌──────────────────────────────┐
+ │      Mobile/Web App UI       │  ← Monitor trades, configure bot
+ └────────────┬─────────────────┘
+              │ REST/WebSocket
+ ┌────────────▼────────────┐
+ │   Syntherra Core Engine │
+ ├─────────────────────────┤
+ │ • Strategy Selector      │  ← AI-based logic
+ │ • Risk Analyzer          │  ← Rug pull detection
+ │ • Trade Executor         │  ← Exchange APIs (e.g. Binance)
+ │ • Scheduler              │  ← Interval & event-driven loops
+ └────────────┬────────────┘
+              │
+ ┌────────────▼────────────┐
+ │    Data & Analytics     │
+ ├─────────────────────────┤
+ │ • Live Market Feed       │
+ │ • Trade History DB       │
+ │ • Model Performance Logs │
+ └─────────────────────────┘
 
 ## Features
 - AI-Powered Strategy Engine
