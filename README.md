@@ -125,40 +125,8 @@ Email, Telegram, and webhook alerts on trade execution and risks.
 Visual summaries of trading metrics and profit over time.
 
 ## Project Structure
-syntherra/
-├── main.py
-├── config.py
-├── requirements.txt
-├── .env
-│
-├── strategies/              ← Strategy logic
-│   ├── ai_trend_follow.py
-│   └── moving_average.py
-│
-├── analytics/               ← Reporting & performance metrics
-│   ├── performance_report.py
-│   └── data_analyzer.py
-│
-├── data_management/         ← Storage handling
-│   ├── database.py
-│   └── data_handler.py
-│
-├── notifications/           ← Alerts (email, Telegram, webhook)
-│   ├── telegram_bot.py
-│   └── webhook.py
-│
-├── deployment/              ← Startup scripts, Docker, etc.
-│   ├── startup.sh
-│   └── docker-compose.yml
-│
-├── mobile/                  ← UI app (beta)
-│   └── react-native/
-│
-├── utils/                   ← Logging, tools, helpers
-│   ├── logger.py
-│   └── config_loader.py
-│
-└── tests/                   ← Unit tests
+![image](https://github.com/user-attachments/assets/dacdb65b-5a63-431a-8258-a3d8e24bbd30)
+
 
 ## Environment Setup
 Create a .env file with the following:
