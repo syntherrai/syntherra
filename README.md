@@ -102,26 +102,8 @@ syntherra-bot/
 
 
 ## Architecture Overview
- ┌──────────────────────────────┐
- │      Mobile/Web App UI       │  ← Monitor trades, configure bot
- └────────────┬─────────────────┘
-              │ REST/WebSocket
- ┌────────────▼────────────┐
- │   Syntherra Core Engine │
- ├─────────────────────────┤
- │ • Strategy Selector      │  ← AI-based logic
- │ • Risk Analyzer          │  ← Rug pull detection
- │ • Trade Executor         │  ← Exchange APIs (e.g. Binance)
- │ • Scheduler              │  ← Interval & event-driven loops
- └────────────┬────────────┘
-              │
- ┌────────────▼────────────┐
- │    Data & Analytics     │
- ├─────────────────────────┤
- │ • Live Market Feed       │
- │ • Trade History DB       │
- │ • Model Performance Logs │
- └─────────────────────────┘
+![image](https://github.com/user-attachments/assets/0ede458e-8dd7-48d9-90e0-4912c41e76e5)
+
 
 ## Features
 - AI-Powered Strategy Engine
