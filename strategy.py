@@ -15,3 +15,4 @@ class Strategy:
             return "SELL"
         else:
             return "HOLD"
+ 
