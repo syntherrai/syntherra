@@ -10,4 +10,4 @@ class DataHandler:
 
     def log_trade(self, trade):
         df = pd.DataFrame([trade])
-        df.to_csv(self.data_path, mode='a', header=False, index=False)
+        df.to_csv(self.data_path, mode='a', header=False, index=False) 
