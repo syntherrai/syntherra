@@ -7,7 +7,7 @@ class MarketData:
             "apiKey": config["api_key"],
             "secret": config["api_secret"]
         })
-        self.pair = config["trading_pair"]
+        self.pair = config["trading_pair"] 
 
     def fetch(self):
         ohlcv = self.exchange.fetch_ohlcv(self.pair, timeframe='1h', limit=200)
