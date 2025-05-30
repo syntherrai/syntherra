@@ -7,7 +7,7 @@ CONFIG = {
     "notification_email": "your-email@example.com",
     "smtp_server": "smtp.gmail.com",
     "smtp_port": 587,
-    "smtp_user": "your-email@example.com",
+    "smtp_user": "your-email@example.com", 
     "smtp_password": "your-password",
     "report_path": "reports/trade_report.json",
     "db_path": "data/syntherra.db",
