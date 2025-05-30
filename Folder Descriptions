@@ -3,7 +3,7 @@ data/
 historical/: Stores past trading data for backtesting.
 
 raw/: Raw market data from exchanges.
-
+ 
 processed/: Data that has been cleaned and formatted.
 
 logs/
