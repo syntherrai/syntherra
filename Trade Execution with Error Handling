@@ -1,7 +1,7 @@
 import ccxt
 import time
 
-class TradeExecutor:
+class TradeExecutor: 
     def __init__(self, config):
         exchange_class = getattr(ccxt, config["exchange"].lower())
         self.exchange = exchange_class({
