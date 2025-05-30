@@ -8,7 +8,7 @@ def simulate_trade(balance, price, signal):
         balance += price
     return balance, position
 
-# Example usage:
+# Example usage: 
 balance, position = simulate_trade(1000, 250, "BUY")
 balance, position = simulate_trade(balance, 300, "SELL")
 print(f"Final balance: {balance}, position: {position}")
